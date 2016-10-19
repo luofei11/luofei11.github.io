@@ -1,7 +1,7 @@
 ---
 title: Intel Research Intern
 organizations:
-  - image: {{site.baseurl}}/public/images/aws.jpg
+  - image: /public/images/aws.jpg
     orgLink: https://www.microsoft.com/en-us/dynamics/crm.aspx
     altText: AWS Payments and Bill Presentation
 ---
