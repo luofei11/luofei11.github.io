@@ -5,7 +5,6 @@ title: A quick start for ReactJS
 ------
 
 ReactJS has been a very popular web front-end framework that many companies are using to develop their applications. This article introduces how to create a user interface with React.
-<!-- more -->
 Compared with other frameworks, React provided only a few APIs.
 Before using React, we need to know some basic terminologies in order to understand the framework.
 
@@ -40,7 +39,7 @@ Go to the `build` directory and create `index.html`. Import `react.js` and `JSXT
 
 ## First React Element
 Call `React.createElement` to create an `Element` and pass the information of the element.
-```js
+```javascript
 var div = React.createElement('div', null, "Hello React");
 // Use JSX
 var div = <div>Hello React</div>
@@ -141,4 +140,3 @@ var GreetingApp = React.createClass({
 React.render(<GreetingApp users={users} />, document.body);
 
 ```
-
