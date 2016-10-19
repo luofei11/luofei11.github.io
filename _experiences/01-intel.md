@@ -2,8 +2,8 @@
 title: Intel Research Intern
 organizations:
   - image: /public/images/aws.jpg
-    orgLink: https://www.microsoft.com/en-us/dynamics/crm.aspx
-    altText: AWS Payments and Bill Presentation
+    orgLink: http://www.intel.com/content/www/us/en/homepage.html?Id=6
+    altText: Intel China Research Center
 ---
 
 <p>

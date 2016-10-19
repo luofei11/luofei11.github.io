@@ -2,7 +2,7 @@
 title: AWS SDE Intern
 organizations:
   - image: /public/images/aws.jpg
-    orgLink: https://www.microsoft.com/en-us/dynamics/crm.aspx
+    orgLink: https://aws.amazon.com/
     altText: AWS Payments and Bill Presentation
 ---
 
