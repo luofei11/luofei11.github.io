@@ -1,7 +1,7 @@
 ---
 title: AWS SDE Intern
 organizations:
-  - image: /public/images/amazon.jpeg
+  - image: ../public/images/aws.jpg
     orgLink: https://aws.amazon.com/
     altText: AWS Payments and Bill Presentation
 ---
