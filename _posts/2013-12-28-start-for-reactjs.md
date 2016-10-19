@@ -9,12 +9,32 @@ Compared with other frameworks, React provided only a few APIs.
 Before using React, we need to know some basic terminologies in order to understand the framework.
 
 ## Basic Terminology
-| Terminology        | Explanation
-| --------   | -----:  |
-| React Elements    | JavaScript objects that represent HTML elements |  
-| Components        |   Contains one or more React Elements. Used for creating reusable UI modules   |  
-| JSX        |    Extensions of JavaScript defined by React(Optional)    |
-| Virtual DOM       |    React uses Virtual DOM to render UI and monitors data on the DOM    |
+<table>
+  <thead>
+    <tr>
+      <th>Terminology</th>
+      <th>Explanation</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td>React Elements</td>
+      <td>JavaScript objects that represent HTML elements</td>
+    </tr>
+    <tr>
+      <td>Components</td>
+      <td>Contains one or more React Elements. Used for creating reusable UI modules</td>
+    </tr>
+    <tr>
+      <td>JSX</td>
+      <td>Extensions of JavaScript defined by React(Optional)</td>
+    </tr>
+    <tr>
+      <td>Virtual DOM</td>
+      <td>React uses Virtual DOM to render UI and monitors data on the DOM</td>
+    </tr>
+  </tbody>
+</table>
 
 ## Demo Preparation
 Downloadn Starter Kit at [React download page](http://facebook.github.io/react/downloads.html) and decompress it.
