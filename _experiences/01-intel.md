@@ -1,7 +1,7 @@
 ---
 title: Intel Research Intern
 organizations:
-  - image: /public/images/aws.jpg
+  - image: ../public/images/intel.png
     orgLink: http://www.intel.com/content/www/us/en/homepage.html?Id=6
     altText: Intel China Research Center
 ---
