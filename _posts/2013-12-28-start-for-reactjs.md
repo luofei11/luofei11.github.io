@@ -39,20 +39,23 @@ Go to the `build` directory and create `index.html`. Import `react.js` and `JSXT
 
 ## First React Element
 Call `React.createElement` to create an `Element` and pass the information of the element.
+
 ```javascript
 var div = React.createElement('div', null, "Hello React");
 // Use JSX
 var div = <div>Hello React</div>
 ```
+
 After that, we can call `React.render` to render the page.
-```js
+
+```javascript
 React.render(div, document.body);
 ```
 
 ## First React Component
 React Component extracts the structure and logic of the same UI components. Call `React.createClass` to create a Component and pass an object parameter with `render` function.
 
-```js
+```javascript
 var HelloMessage = React.createClass({
   render: function () {
     return <div>Hello {this.props.name}</div>;
@@ -65,14 +68,16 @@ As we see, `React.createClass` receives an object and return the function to `He
 
 ## Props
 In the example below, we noticed that there was a special thing: `this.props.name`. It's known as `Props`. We can imagine it as attribute in HTML.
-```js
+
+```javascript
 React.render(<HelloMessage name="foo" />, document.body);
 ```
 We use the Props in the Component by `this.props.name`.
 
 ## Stateful Component
 State indicates the state of the Component. When state changes, React rerenders the UI page. We can access the state by `this.state`.
-```js
+
+```javascript
 var Greeting = React.createClass({
   getInitialState: function () {
     return { greeted: false };
@@ -102,7 +107,8 @@ After state has been changed, React renders component on the Virtual DOM and com
 
 ## Combination
 With combination of Props and State, we can create a complete application using Component.
-```js
+
+```javascript
 var Greeting = React.createClass({
   getInitialState: function () {
     return { greeted: false };
