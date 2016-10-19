@@ -1,0 +1,68 @@
+div.center {
+	position: absolute;
+  left: 50%;
+  top: 50%;
+  transform: translate(-50%, -50%);
+  width: 40%;
+  height: 50%;
+  padding: 20px;
+}
+
+.white-text {
+	color:white;
+	text-decoration: none;
+}
+/* skills.html */
+table.skill {
+	margin: 50px 0;
+	width:100%;
+}
+table.skill > tbody > tr > td {
+	vertical-align: middle;
+}
+table.skill > tbody > tr > td > i {
+	font-size:120%;
+}
+table.skill > tbody > tr > td > h3.content-subhead {
+	margin: 0px;
+	padding: inherit;
+	padding-right: 0;
+	padding-left: 0;
+}
+table.skill > tbody > tr > td.table-head {
+	background-color: #34495e;
+}
+table.skill > tbody > tr > td.table-head.odd {
+	background-color: #7f8c8d;
+}
+
+/* experiences.html */
+table.experience {
+	border: none;
+	background-color: transparent;
+	margin-top: 50px;
+	margin-bottom: 50px;
+}
+img.pure-img-responsive.experience {
+	width: 13em;
+	min-width: 13em;
+}
+
+tbody tr:nth-child(odd) td, tbody tr:nth-child(odd) th, .experience {
+	background: #fff;
+}
+
+/* project.html */
+span.link-header {
+	display:block;
+}
+span.link-header > h1, span.link-header > h4 {
+	display: inline;
+	text-decoration: none;
+	font-weight:300;
+}
+
+.pure-g > .pure-img-responsive .headshot {
+  max-height: 100%;
+  max-width: 100%;
+}
