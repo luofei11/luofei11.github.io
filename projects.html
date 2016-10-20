@@ -18,6 +18,9 @@ title: Projects
       {% if project.attachment %}
       <a href="{{project.attachment}}"><i class="fa fa-file fa-fw"></i></a>
       {% endif %}
+      {% if project.exec %}
+      <a href="{{project.exec}}"><i class="fa fa-file-excel-o"></i></a>
+      {% endif %}
     </h1>
     <hr/>
     <span class="post-date">{{ project.tagline }}</span>
