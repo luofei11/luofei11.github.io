@@ -4,4 +4,4 @@ title: bomberman
 tagline: A strategic, maze-based video game franchise purely in Assembly.
 ---
 
-See [here for paper](http://mir.cs.illinois.edu/marinov/publications/LinETAL15JaConTeBe.pdf).
+See [here for bomberman repo](https://github.com/luofei11/Bomberman/tree/master/bomber/project).
